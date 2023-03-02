@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/crud with table relations.iml" filepath="$PROJECT_DIR$/.idea/crud with table relations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-with-table-relations/crud-with-table-relations.iml" filepath="$PROJECT_DIR$/crud-with-table-relations/crud-with-table-relations.iml" />
+    </modules>
+  </component>
+</project>
