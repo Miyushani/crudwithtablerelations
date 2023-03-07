@@ -13,5 +13,6 @@ public class StudentDto {
     private String address;
     private String email;
     private int age;
-    private Grade grade;
+    private int gradeId;
+    //GradeDto gradeDto;
 }

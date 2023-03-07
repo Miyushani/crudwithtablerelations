@@ -16,14 +16,14 @@ public class TeacherController {
     @Autowired
     public TeacherService teacherService;
     @PostMapping("/saveTeacher")
-    public void addTeacher(@RequestBody StudentDto studentDto)
+    public void addTeacher(@RequestBody TeacherDto teacherDto)
     {
-        teacherService.insertTeacher(studentDto);
+        teacherService.insertTeacher(teacherDto);
     }
 
     //get all data
     @GetMapping("/getTeachers")
-    public List<StudentDto> getAllData()
+    public List<TeacherDto> getAllData()
     {
         return teacherService.getAllTeachers();
     }
@@ -40,6 +40,5 @@ public class TeacherController {
         teacherService.deleteByTeacherId(teacherId);
         return "Deleted";
     }
-
 
 }

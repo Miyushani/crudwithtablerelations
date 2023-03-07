@@ -26,7 +26,7 @@ public class TeacherService {
     }
 
     //get all employee
-    public List<StudentDto> getAllTeachers()
+    public List<TeacherDto> getAllTeachers()
     {
         List<Teacher> teacherList= teacherRepo.findAll();
         return modelMapper.map(teacherList, new TypeToken<ArrayList<TeacherDto>>() {

@@ -20,7 +20,8 @@ public class Student {
     private String address;
     private String email;
     private int age;
-    @ManyToOne()
-    @JoinColumn(name="studentId", referencedColumnName = "studentId")
-    Grade grade;
+    private int gradeId;
+    //@ManyToOne()
+    //@JoinColumn(name="studentId", referencedColumnName = "studentId")
+    //Grade grade;
 }

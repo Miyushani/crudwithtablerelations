@@ -6,18 +6,16 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-import java.util.List;
+
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Table
-public class Subject {
+public class StudentTeacher {
     @Id
-    private int subjectId;
-    private String subjectName;
-    @ManyToMany(mappedBy="subject")
-    List<Grade> gradeList;
+    private int id;
+    private int studentId;
+    private int teachersId;
 }

@@ -13,5 +13,5 @@ public class TeacherDto {
     private String teachersName;
     private String teachersAddress;
     private String teachersMail;
-    Grade grade;
+    GradeDto gradeDto;
 }

@@ -13,12 +13,12 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GradeDto {
-    private int grade;
-    private List<Student> student;
+    private int gradeNum;
+    //private List<StudentDto> studentDto;
 
-    private List<Subject> subject;
+    private List<SubjectDto> subjectDto;
 
-    private List<Teacher> teacher;
+    private List<TeacherDto> teacherDto;
 
 }
 
